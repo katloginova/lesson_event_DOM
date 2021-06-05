@@ -17,7 +17,7 @@ function handlerAddToDo() {
 }
 
 function isEmpty(str) {
-    return Number(str) === 0;
+    return str.trim() === '';
 }
 
 function createItemOfList(contentItem) {
